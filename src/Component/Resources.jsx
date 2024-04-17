@@ -10,7 +10,7 @@ function Resources() {
       className="flex flex-col justify-center items-center h-screen"
       style={{
         background: "linear-gradient(180deg, #7C90E2 0%, #9BEA70 100%)",
-        boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)", // Add shadow
+        boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)", 
       }}
     >
       {/* Our Resources Header */}
@@ -33,17 +33,17 @@ function Resources() {
         className="relative"
         style={{
           width: "1100px",
-          height: "450px",
+          height: "800px",
           top: "100px",
           left: "10px",
           gap: "0px",
           borderRadius: "50px 50px 50px 50px",
           border: "15px solid #2E660F",
           opacity: "0.5",
-          backgroundImage: `url(${SmartPeople})`, // Corrected backgroundImage
+          backgroundImage: `url(${SmartPeople})`, 
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
-          marginBottom: "250px",
+          marginBottom: "190px",
         }}
       >
         {/* Top Row of Rectangles */}
@@ -90,8 +90,8 @@ function Resources() {
                 width: "200px",
                 height: "60px",
                 background: "#576C93",
-                display: "flex", // Ensures flex alignment
-                alignItems: "center", // Aligns content vertically
+                display: "flex", 
+                alignItems: "center", 
                 justifyContent: "center",
                 marginTop: "190px",
               }}
@@ -115,8 +115,8 @@ function Resources() {
                 width: "200px",
                 height: "60px",
                 background: "#576C93",
-                display: "flex", // Ensures flex alignment
-                alignItems: "center", // Aligns content vertically
+                display: "flex", 
+                alignItems: "center", 
                 justifyContent: "center",
                 marginTop: "190px",
                 marginRight: "40px",
@@ -144,10 +144,10 @@ function Resources() {
                 width: "200px",
                 height: "90px",
                 background: "#576C93",
-                display: "flex", // Ensures flex alignment
-                alignItems: "center", // Aligns content vertically
+                display: "flex", 
+                alignItems: "center",
                 justifyContent: "center",
-                marginBottom: "150px",
+                marginBottom: "10px",
                 marginLeft: "250px",
               }}
             >
@@ -170,10 +170,10 @@ function Resources() {
                 width: "200px",
                 height: "90px",
                 background: "#576C93",
-                display: "flex", // Ensures flex alignment
-                alignItems: "center", // Aligns content vertically
+                display: "flex", 
+                alignItems: "center", 
                 justifyContent: "center",
-                marginBottom: "150px",
+                marginBottom: "10px",
                 marginRight: "270px",
               }}
             >
