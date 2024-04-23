@@ -1,7 +1,7 @@
 import React from "react";
 import SmartPeople from "../assets/SmartPeople.png";
 import Navbar from "./Navbar";
-
+import Footer from "../../../hris/src/components/Footer";
 function Resources() {
   return (
     <div>
@@ -183,6 +183,7 @@ function Resources() {
         </div>
       </div>
       </div>
+      <Footer />
     </div>
   );
 }
