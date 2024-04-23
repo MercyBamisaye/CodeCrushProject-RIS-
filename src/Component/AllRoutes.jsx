@@ -7,6 +7,8 @@ import Footer from "./Footer";
 import HRLoginScreen from "./HrSystemLogin";
 import RISDashboard from "./RISDashboard";
 import LandingPage from "./LandingPage";
+import About from "../../../hris/src/components/About";
+import ContactUs from "../../../hris/src/components/ContactUs";
 
 
 
@@ -21,6 +23,8 @@ function AllRoutes() {
           <Route path="/resources" element={<Resources />} />
           <Route path="/hr-login" element={<HRLoginScreen />} />
           <Route path="/ris-dashboard" element={<RISDashboard />} />
+          <Route exact path='/About' element={<About />}/>
+        <Route exact path="/Contact" element={<ContactUs />}/>
         </Routes>
       </Router>
       {/* <Footer/> */}
