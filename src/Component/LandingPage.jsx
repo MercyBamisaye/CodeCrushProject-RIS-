@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
-import Footer from '../../../hris/src/components/Footer';
+
 <Navbar/>
 function LandingPage() {
   return (
@@ -94,7 +94,7 @@ function LandingPage() {
           {/* Contact form or details */}
         </div>
       </section>
-      <Footer />
+     
     </div>
   );
 }
