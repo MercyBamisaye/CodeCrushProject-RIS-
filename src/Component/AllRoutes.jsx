@@ -1,9 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Navbar from "./Navbar";
 import SignUp from "./SignUp";
 import Resources from "./Resources";
-import Footer from "./Footer";
 import HRLoginScreen from "./HrSystemLogin";
 import RISDashboard from "./RISDashboard";
 import LandingPage from "./LandingPage";
