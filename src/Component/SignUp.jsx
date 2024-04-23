@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from '../assets/Logo2.png';
 import Group from '../assets/Group.png'
 import Navbar from '../Component/Navbar'
-import Footer from '../../../hris/src/components/Footer';
+
 function SignUp() {
   return (
     <div>
@@ -78,7 +78,7 @@ function SignUp() {
         </div>
       </div>
     </div>
-    <Footer />
+  
     </div>
     
   );
